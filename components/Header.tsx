@@ -9,8 +9,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
       <div className="container flex h-16 items-center justify-between">
         <Link className="flex items-center space-x-2" href="/">
-          <Tooth className="h-8 w-8 text-blue-600" />
-          <span className="font-bold text-xl text-blue-900">نورمار  </span>
+          <img src='/nor-logo.png' alt='logo' className='w-30 h-16' />
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           <Link className="text-gray-700 hover:text-blue-600 transition-colors" href="#services">خدماتنا</Link>
